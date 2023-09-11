@@ -1,0 +1,110 @@
+.contact_page {
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgba(77, 77, 77, 1);
+}
+
+.contact_container {
+
+    width: 85%;
+    margin: 0 auto;
+}
+
+.contact_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact_heading h6 {
+    color: white;
+    font-size: 16px;
+}
+
+.contact_heading h3 {
+    font-family: Averia Serif Libre;
+    font-size: 32px;
+    font-weight: bold;
+    background: linear-gradient(90.41deg, #C100A2 0.35%, #9700C1 99.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.contact_heading p {
+    color: white;
+    font-size: 16px;
+}
+
+.contact_form {
+    margin-top: 80px;
+}
+
+.contact_form_heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.contact_form>form {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.form_input {
+
+    color: white;
+    width: 100%;
+}
+
+.form_input_container {
+    display: flex;
+    background: linear-gradient(92.76deg, rgba(193, 0, 162, 0.75) 0%, rgba(151, 0, 193, 0.75) 75.44%);
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+
+.form_input_container>input {
+    background-color: #070d24;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    height: 46px;
+    width: 100%;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.form_textarea {
+    width: 100%;
+    color: white;
+}
+
+.form_input_container>textarea {
+    background-color: #070d24;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    width: 100%;
+    outline: none;
+    height: 187px;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.form_contact_submit {
+    margin-top: 100px;
+    background: linear-gradient(90.05deg, #C100A2 0%, #9700C1 83.14%);
+    border-radius: 4px;
+    height: 46px;
+    color: white;
+    margin-bottom: 100px;
+}

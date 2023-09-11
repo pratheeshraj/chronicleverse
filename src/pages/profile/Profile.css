@@ -1,0 +1,207 @@
+.profile {
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    border-bottom: 1px solid rgba(77, 77, 77, 1);
+    margin-bottom: 100px;
+}
+.profile_section{
+    width: 100%;
+    border-bottom: 1px solid rgba(77, 77, 77, 1);
+}
+.profilebanner_bg {
+    position: relative;
+    width: 100%;
+}
+
+.profilebanner_bg>img {
+    width: 100%;
+}
+
+.profilebanner_bg>div {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.profile_pic {
+    position: relative;
+    width: 82%;
+    margin: 0 auto;
+}
+
+.profile_pic>img {
+    position: absolute;
+    bottom: -230px;
+    z-index: 4;
+}
+
+.profile_pic_link {
+    position: absolute;
+    z-index: 4;
+    right: 0;
+    top: -90px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile_pic_link>a {
+    padding: 10px 15px;
+    background: linear-gradient(98.47deg, #C100A2 0%, #9700C1 100%);
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.profile_container {
+  
+    width: 82%;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+.profile_container>h3 {
+    font-size: 28px;
+    z-index: 6;
+}
+
+.profile_link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.profile_link_content {
+    position: relative;
+    width: 487px;
+    height: 44px;
+    display: flex;
+    background: linear-gradient(92.76deg, rgba(193, 0, 162, 0.75) 0%, rgba(151, 0, 193, 0.75) 75.44%);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.profile_link_content>div {
+    display: flex;
+    align-items: center;
+    background-color: #070d24;
+    outline: none;
+    border: transparent;
+    border-radius: 4px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+}
+
+.profile_link_content>img {
+    position: absolute;
+    right: 20px;
+}
+.profile_link_right{
+    display: flex;
+    gap: 10px;
+
+}
+.profile_link{
+    margin-bottom: 40px;
+}
+.follow_btn{
+    width: 108px;
+    height: 44px;
+    background: linear-gradient(93.97deg, #C100A2 0%, #9700C1 100%);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.profile_share{
+    width: 44px;
+    height: 44px;
+    position: relative;
+    display: flex;
+    background: linear-gradient(92.76deg, rgba(193, 0, 162, 0.75) 0%, rgba(151, 0, 193, 0.75) 75.44%);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    align-items: center;
+}
+.profile_share >button{
+    display: flex;
+    align-items: center;
+    background-color: #070d24;
+    outline: none;
+    border: transparent;
+    border-radius: 4px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.profile_more{
+    width: 44px;
+    height: 44px;
+    position: relative;
+    display: flex;
+    background: linear-gradient(92.76deg, rgba(193, 0, 162, 0.75) 0%, rgba(151, 0, 193, 0.75) 75.44%);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    align-items: center;
+}
+.profile_more >button{
+    display: flex;
+    align-items: center;
+    background-color: #070d24;
+    outline: none;
+    border: transparent;
+    border-radius: 4px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.profile_dec{
+    font-size: 14px;
+    width: 480px;
+    margin-bottom: 50px;
+}
+.profile_nav{
+    padding-bottom: 27px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-left: 30px;
+}
+.profile_nav >a{
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    height: 100%;
+}
+.profile_nav_router{
+    width: 82%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.profile_active{
+    background: linear-gradient(90.41deg, #C100A2 0.35%, #9700C1 99.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.profile_active:after{
+    transition: .4s;
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 10px;
+    bottom: -28px;
+    left: -23px;
+    border-radius:8px 8px 0 0;
+    background: linear-gradient(90.75deg, #C100A2 0%, #9700C1 89.35%);
+}

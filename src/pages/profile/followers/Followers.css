@@ -1,0 +1,15 @@
+.followers {
+    width: 80%;
+    overflow-y: scroll;
+    height: 850px;
+}
+
+.followers::-webkit-scrollbar {
+    width: 8px;
+    background-color: #2B2B2B;
+ }
+::-webkit-scrollbar-thumb {
+    height: 5px;
+    background: linear-gradient(180deg, #C100A2 0%, #9700C1 100%);
+
+ }

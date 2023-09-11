@@ -1,0 +1,33 @@
+h4 {
+    margin: 0;
+}
+
+.itemDetailCard {
+    border: 1px solid #C100A2;
+    width: 558px;
+    height: 88px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.Info_content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.Info_content>p {
+    font-size: 20px;
+    color: #919191;
+}
+
+.Info_content>h4 {
+    font-size: 20px;
+}

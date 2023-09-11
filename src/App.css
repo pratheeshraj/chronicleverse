@@ -1,0 +1,117 @@
+.nav {
+  top: 20px;
+
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_container {
+  width: 95% !important;
+  margin: 0 auto !important;
+  background-color: transparent;
+}
+
+.nav_item_left {
+  gap: 30px !important;
+  margin-left: 92px !important;
+}
+
+.nav_input_border {
+
+  background: linear-gradient(92.76deg, rgba(193, 0, 162, 0.75) 0%, rgba(151, 0, 193, 0.75) 75.44%);
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.nav_input {
+  width: 283px !important;
+  border-radius: 4px;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  background-color: #070D24;
+  color: #BDBDBD !important;
+
+
+}
+
+.nav_search_icon {
+  color: #BDBDBD !important;
+  top: 6px !important;
+  right: 10px !important;
+}
+
+.nav_item_left>a {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav_right {
+  gap: 30px;
+  height: 100%;
+  align-items: center !important;
+}
+
+.nav_notification {
+  position: relative;
+}
+
+.nav_notification_sy {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(92.76deg, rgba(193, 0, 162, 0.75) 0%, rgba(151, 0, 193, 0.75) 75.44%);
+  border-radius: 50%;
+}
+
+.nav_btn {
+  background: linear-gradient(92.95deg, #C100A2 0%, #9700C1 66.18%) !important;
+  width: 100px;
+  border: 0 !important;
+  height: 44px;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+color: white;
+}
+
+.nav_connect_btn{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: linear-gradient(92.95deg, #C100A2 0%, #9700C1 66.18%) !important;
+  width: 160px !important;
+  height: 44px !important;
+  color: white !important;
+  border-radius: 4px !important;
+}
+
+.btn {
+  width: 160px;
+  height: 48px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent;
+  background: linear-gradient(#070d24, #070d24) padding-box, linear-gradient(92.95deg, #C100A2 0%, #9700C1 66.18%) border-box;
+
+}
+
+.btn:hover {
+  background: linear-gradient(92.95deg, #C100A2 0%, #9700C1 66.18%);
+  color: white;
+}
+
+
+/* border: 1px solid;
+
+border: 1px solid;
+
+border-image-source: linear-gradient(92.76deg, rgba(193, 0, 162, 0.75) 0%, rgba(151, 0, 193, 0.75) 75.44%);
+
+ */
